@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home_page">
+
+    <TextView
+        android:id="@+id/valuationText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Vehicle Valuation"
+        android:textSize="34sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20sp"
+        android:fontFamily="@font/tienne_bold"
+        android:textColor="@color/blue"/>
+
+
+    <TextView
+        android:id="@+id/intructionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please input the prospect vehicle details."
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:layout_gravity="left"
+        android:fontFamily="@font/tienne"/>
+
+
+    <EditText
+        android:id="@+id/makeInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Make"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/modelInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Model"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp"/>
+
+
+    <EditText
+        android:id="@+id/yearInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Year"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16sp"/>
+
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit Form"
+        android:background="#FF0000"
+        android:textColor="@color/white"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="80dp"/>
+
+    <TextView
+        android:id="@+id/accountText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Logged in:"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/tienne_bold"/>
+    <TextView
+        android:id="@+id/HomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="[Account Name]"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/logoutBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="#FF0000"
+        android:text="Logout"
+        android:textColor="@color/white"
+        />
+
+</LinearLayout>

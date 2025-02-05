@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home_page">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/valuationText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Vehicle Valuation"
+            android:textSize="34sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20sp"
+            android:fontFamily="@font/tienne_bold"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/priceText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:layout_margin="10dp"
+            android:background="#0B6623"
+            android:fontFamily="@font/tienne"
+            android:text="£[OpenAI Price]"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/vehicleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/tienne"
+            android:text="[Replace by OpenAi text]: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+            android:textSize="15sp" />
+
+        <WebView
+            android:id="@+id/webViewYoutube"
+            android:layout_width="match_parent"
+            android:layout_height="250sp"/>
+
+        <Button
+            android:id="@+id/goMaps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Google Maps"
+            android:background="@color/blue"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"/>
+
+
+
+        <Button
+            android:id="@+id/homegobackButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go Back"
+            android:background="@color/blue"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+
+</ScrollView>
