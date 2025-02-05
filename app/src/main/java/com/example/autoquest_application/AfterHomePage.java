@@ -36,7 +36,7 @@ public class AfterHomePage extends AppCompatActivity {
     TextView carSpecifications;
     WebView webView;
 
-    // please add your open.ai key and stringURLEndPoint for open,ai, youtube key
+    // please add your open.ai key and stringURLEndPoint for open.ai and youtube key as the required variables.
     private String stringOutput = "";
     private String stringOutput2 = "";
 
